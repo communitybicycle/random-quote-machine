@@ -1,0 +1,76 @@
+html,
+body {
+  background: radial-gradient(#fff, lightblue);
+  height: 100%;
+  margin: 0px;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 36px;
+  text-align: center;
+  color: #333333;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #333333;
+}
+
+button {
+  background-color: #86c5da;
+  padding: 15px;
+  margin: 15px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 14pt;
+  transition: 0.35s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lightblue;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.main {
+  background-color: #ffffff;
+  width: 640px;
+  margin: auto;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+}
+
+.content {
+  padding: 0px 20px;
+}
+
+#quote-box {
+  text-align: center;
+  vertical-align: middle;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+#tweeter {
+  margin: 5px;
+}
+
+@media only screen and (max-width: 730px) {
+  #quote-box {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
